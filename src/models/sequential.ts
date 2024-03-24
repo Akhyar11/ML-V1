@@ -28,6 +28,10 @@ export default class Sequential {
     console.log("========== End Info ==========");
   }
 
+  add(layer: Layers) {
+    this.layers.push(layer);
+  }
+
   save(path: string) {
     const data = [];
     for (let layer of this.layers) {
@@ -85,7 +89,7 @@ export default class Sequential {
     X: Matrix[],
     y: Matrix[],
     epochs: number,
-    cb: (err: number) => any = (_) => {},
+    cb: (err: number) => any = (_) => { },
   ) {
     for (let i = 0; i < epochs; i++) {
       for (let j in X) {

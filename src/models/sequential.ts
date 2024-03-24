@@ -40,6 +40,7 @@ export default class Sequential {
   load(path: string) {
     const dataJson = readFileSync(path, "utf-8");
     const data = JSON.parse(dataJson);
+    this.layers = [];
     this.layers = setLayers(data);
   }
 
@@ -84,7 +85,7 @@ export default class Sequential {
     X: Matrix[],
     y: Matrix[],
     epochs: number,
-    cb: (err: number) => any = (_) => {}
+    cb: (err: number) => any = (_) => {},
   ) {
     for (let i = 0; i < epochs; i++) {
       for (let j in X) {

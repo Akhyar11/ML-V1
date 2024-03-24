@@ -22,6 +22,8 @@ export default class DimentionalityReduction extends Sequential {
   load(path: string): void {
     const dataJson = readFileSync(path, "utf-8");
     const data = JSON.parse(dataJson);
+    this.layersEncode = [];
+    this.layersDecode = [];
     this.layers = setLayers(data);
     let isLayerEncode = true;
     for (let layer of this.layers) {

@@ -118,10 +118,10 @@ export default class Dense {
       mj.dotProduct(this.weight, this.input),
       this.bias
     );
-    const result = this.activation(calculateWeightBias);
-    this.dInput = result[1];
-    this.result = result[0];
-    return result[0];
+    const [result, dResult] = this.activation(calculateWeightBias);
+    this.dInput = dResult;
+    this.result = result;
+    return result;
   }
 
   backward(y: Matrix, err: Matrix): Matrix {

@@ -30,3 +30,50 @@ export default function linear(a: Matrix): [Matrix, Matrix] {
   const dResult = mj.ones(a._shape);
   return [result, dResult];
 }
+
+/**
+ * Fungsi non linear softmax dengan kembalian array [softmax, dSoftmax]
+ * @param a Matrix
+ * @param row Boolean default False
+ * @returns [Matrix, Matrix]
+ */
+export function softmax(a: Matrix, row = false): [Matrix, Matrix] {
+  if (row) {
+    const result = a._value.map((row) => {
+      const maxVal = Math.max(...row);
+      const expValues = row.map((value) => Math.exp(value - maxVal));
+      const sumExpValues = expValues.reduce((a, b) => a + b, 0);
+      return expValues.map((value) => value / sumExpValues);
+    });
+
+    const softmaxMatrix = mj.matrix(result);
+    return [softmaxMatrix, softmaxGradien(softmaxMatrix)];
+  } else {
+    const reshapeMatrix = mj.reshape(a, [a._shape[1], a._shape[0]]);
+    const result = reshapeMatrix._value.map((row) => {
+      const maxVal = Math.max(...row);
+      const expValues = row.map((value) => Math.exp(value - maxVal));
+      const sumExpValues = expValues.reduce((a, b) => a + b, 0);
+      return expValues.map((value) => value / sumExpValues);
+    });
+
+    const softmaxMatrix = mj.reshape(mj.matrix(result), a._shape);
+    return [softmaxMatrix, softmaxGradien(softmaxMatrix)];
+  }
+}
+
+export function softmaxGradien(a: Matrix) {
+  const gradSoftmax = mj.zeros(a._shape);
+  for (let i = 0; i < a._shape[0]; i++) {
+    for (let j = 0; j < a._shape[1]; j++) {
+      gradSoftmax._value[i][j] +=
+        a._value[i][j] * (delta(i, j) - a._value[i][j]);
+    }
+  }
+
+  function delta(i: number, j: number): number {
+    return i === j ? 1 : 0;
+  }
+
+  return gradSoftmax;
+}

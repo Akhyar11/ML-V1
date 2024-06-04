@@ -21,6 +21,7 @@ import sub from "./sub";
 import transpose from "./trasnpose";
 import zeros from "./zeros";
 import convolution from "./convolution";
+import norm from "./norm";
 
 const mj = {
   absm,
@@ -46,6 +47,7 @@ const mj = {
   transpose,
   zeros,
   convolution,
+  norm,
 };
 
 export default mj;

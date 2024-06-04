@@ -24,3 +24,9 @@ export type Optimzier = "sgd" | "adaGrad" | "momentum" | "nag";
 export type OptimzierType = SGD | AdaGrad | NAG | Momentum;
 export type Cost = "mse";
 export type Layers = Dense | Activation | Convolution;
+
+export type WorkerData = {
+  value: number;
+  i: number;
+  k: number;
+};

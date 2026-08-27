@@ -33,7 +33,8 @@
   },
   "dependencies": {
     "@oxide-js/core": "*",
-    "@oxide-js/layers": "*"
+    "@oxide-js/layers": "*",
+    "@oxide-js/spiking": "*"
   },
   "devDependencies": {
     "typescript": "^6.0.3"

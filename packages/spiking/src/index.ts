@@ -4,4 +4,4 @@ export { SpikingDenseBPTT, type SpikingDenseBPTTConfig } from "./layers/SpikingD
 export { SpikingEmbedding, type SpikingEmbeddingConfig } from "./layers/SpikingEmbedding.js";
 export { SpikingSelfAttention, type SpikingSelfAttentionConfig } from "./layers/SpikingSelfAttention.js";
 // export { SpikingSentenceEmbedder, type SpikingSentenceConfig } from "./models/SpikingSentenceEmbedder.js";
-export { contrastiveHebbianNativeWrapper, isNativeAvailable } from "./native_backend.js";
+export { contrastiveHebbianNativeWrapper, poolerDistillationNativeWrapper, isNativeAvailable } from "./native_backend.js";

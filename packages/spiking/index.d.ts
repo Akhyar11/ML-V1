@@ -9,3 +9,4 @@ export declare function maskSurrogateNative(errorSignal: Float32Array, potential
 export declare function applyAddOnlyDeltaNative(kernel: Float32Array, bias: Float32Array, inputs: Float32Array, errorSignal: Float32Array, learningRate: number, batch: number, inFeatures: number, units: number, useBias: boolean): void
 export declare function applyEmbeddingDeltaNative(embeddings: Float32Array, inputs: Float32Array, errorSignal: Float32Array, learningRate: number, inputDim: number, outputDim: number): void
 export declare function contrastiveHebbianNative(spikes: Float32Array, errData: Float32Array, numPairs: number, sequenceLength: number, dModel: number): number
+export declare function poolerDistillationNative(normalizedOut: Float32Array, errData: Float32Array, numPairs: number, dModel: number, margin: number, targetScores: Float32Array): number

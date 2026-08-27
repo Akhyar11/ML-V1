@@ -55,7 +55,7 @@ export class SpikingEmbedding extends BaseLayer {
     
     // Scale up the embedding values because Glorot Normal makes them too small for large vocabularies (e.g. 32000)
     // which prevents the LIF neurons from ever reaching the threshold.
-    const scaleFactor = Math.sqrt(this.inputDim);
+    const scaleFactor = 100.0;
     for (let i = 0; i < embVal._data.length; i++) {
         embVal._data[i] *= scaleFactor;
     }
@@ -112,11 +112,10 @@ export class SpikingEmbedding extends BaseLayer {
             }
         }
     }
-    
-    // 2. Leaky Integrate and Fire (LIF Restore untuk Spiking Murni)
     const outData = this.outDataBuffer!;
     outData.fill(0);
     const outSpikes = Matrix.fromFlat(outData, [batch, this.outputDim]);
+
     // lastPotentials is already ensured in shape
 
     if (isNativeAvailable()) {
@@ -157,9 +156,9 @@ export class SpikingEmbedding extends BaseLayer {
     return outSpikes;
   }
 
-  public learnEmbedding(errorSignal: Matrix, B: Matrix, learningRate: number = 0.01): Matrix {
+  public learnEmbedding(errorSignal: Matrix, B?: Matrix, learningRate: number = 0.01): Matrix {
       // Broadcast error mundur (Feedback Alignment)
-      let eHidden = mj.dotProduct(errorSignal, B, undefined, false, false); // E * B
+      let eHidden = B ? mj.dotProduct(errorSignal, B, undefined, false, false) : errorSignal;
       
       // Surrogate Mask: Boxcar
       if (this.lastPotentials) {
@@ -221,7 +220,6 @@ export class SpikingEmbedding extends BaseLayer {
                   const errOffset = b * outputDim;
                   for (let j = 0; j < outputDim; j++) {
                       embeddings[embOffset + j] += learningRate * err[errOffset + j];
-                      embeddings[embOffset + j] = Math.max(-1.0, Math.min(1.0, embeddings[embOffset + j])); // Clamp weight [-1, 1]
                   }
               }
           }

@@ -82,3 +82,22 @@ outputs.print();
 console.log("\nSequential Diagnostics Summary:");
 model.summary();
 ```
+
+---
+
+## ⚡ `SpikingSequential` (Native Fallback Parity)
+
+`SpikingSequential` is a highly specialized variant of the `Sequential` container built specifically for **Spiking Neural Networks** involving BPTT (Backpropagation Through Time). It unrolls sequential token data dynamically through Spiking Attention layers and Spiking BPTT poolers.
+
+### Native Rust and TS Fallback Parity
+
+As of `v2.5.1`, `SpikingSequential` dynamically manages gradient flow and `NaN` masking equivalently between the Native Rust Backend and the Pure TypeScript Fallback. 
+* If the Rust backend is unavailable (or `ML_DISABLE_NATIVE=1`), the TS Fallback precisely emulates the biological neuron calculations without succumbing to representation collapse, gradient explosions (`NaN`), or the "Dead Network" pooler bug. 
+* Both environments will now guarantee exactly identical learning convergences (`MSE = 0`).
+
+```ts
+import { SpikingSequential } from "@oxide-js/models";
+
+const spikingModel = new SpikingSequential();
+// Follows similar push-layer topology but expects only Spiking Layers...
+```

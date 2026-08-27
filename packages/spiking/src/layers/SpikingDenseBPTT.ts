@@ -67,6 +67,8 @@ export class SpikingDenseBPTT extends BaseLayer {
     const inFeatures = inputShape[inputShape.length - 1];
 
     const kernelVal = this.createInitializer(this.kernelInitializer, [inFeatures, this.units]);
+    const scale = 100.0;
+    for (let i = 0; i < kernelVal._data.length; i++) kernelVal._data[i] *= scale;
     this.addParameter("kernel", kernelVal, true, [inFeatures, this.units]);
 
     if (this.useBias) {
@@ -142,7 +144,7 @@ export class SpikingDenseBPTT extends BaseLayer {
         lifStepNativeWrapper(
             this.potentials._data,
             dot._data,
-            outSpikes._data,
+            outData,
             potAtT, // argumen ke-4 di lifStepNative akan diisi oleh potensial pre-fire
             this.beta,
             this.threshold

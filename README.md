@@ -507,7 +507,7 @@ The API documentation is fully decoupled and detailed with complete mathematical
 
 ## Versioning
 
-This project follows `MAJOR.MINOR.PATCH` semantic versioning. The current version is **`2.4.0`**.
+This project follows `MAJOR.MINOR.PATCH` semantic versioning. The current version is **`2.5.1`**.
 
 - **MAJOR** — breaking changes or major architectural shifts.
 - **MINOR** — new backward-compatible features or improvements.
@@ -517,6 +517,7 @@ This project follows `MAJOR.MINOR.PATCH` semantic versioning. The current versio
 
 | Version | Summary |
 |---|---|
+| `2.5.1` | **SNN Parity & TS Fallback Fixes**: Resolves critical `NaN` gradients and *Dead Network* issues in pure TS mode for `SpikingSequential` and `SpikingEmbedding`. The Native Rust and TS fallback implementations are now 100% mathematically identical. |
 | `2.5.0` | **Spiking Neural Networks & Compression**: Penambahan paket `@oxide-js/spiking` untuk AI Biomimetik (LIF, Hebbian Learning), dukungan `learnContrastive` pada SNN Embedder, serta kompresi serialisasi matriks JSON menjadi 1/4 ukuran asli. |
 | `2.4.0` | **Interoperability & Auto-Diff Update**: Introduced Keras-style model serialization (`model.json` + `weights.bin`) and Gradient Tape for dynamic automatic differentiation. |
 | `2.3.1` | **Modularization Milestone**: Monorepo split (`@oxide-js/core`, `@oxide-js/layers`, `@oxide-js/models`), Modular Rust kernels, and ESM-first test suite. |

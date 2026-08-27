@@ -1,0 +1,3081 @@
+npm notice run @oxide-js/monorepo@2.3.3 npx
+npm notice run 'tsx' test_runner.ts
+
+--- 1. Uji Validasi Error ---
+[SpikingEmbedding] input[0] = 0
+[SpikingEmbedding] emb[first_5] = 4.8428263664245605,-3.8655214309692383,-4.162442207336426,-1.8925706148147583,-2.3973634243011475
+[SpikingEmbedding] dotData[first_5] = 4.8428263664245605,-3.8655214309692383,-4.162442207336426,-1.8925706148147583,-2.3973634243011475
+✅ BERHASIL: Model mendeteksi absennya maskLengths dengan benar.
+
+--- 2. Uji Konvergensi Learning ---
+[trainStepDistill] tokenizedBatch =  [
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined
+]
+[SpikingEmbedding] input[0] = NaN
+[SpikingEmbedding] emb[first_5] = 7.253674507141113,4.75799560546875,-2.796452760696411,5.449918746948242,1.0873113870620728
+[SpikingEmbedding] dotData[first_5] = 0,0,0,0,0
+[WARNING] output pooler berisikan SEMUA NOL! (Dead Network)
+[WARNING] Embedding Spikes SEMUA NOL! (Dead Network di Layer 1)
+[trainStepDistill] tokenizedBatch =  [
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined
+]
+[SpikingEmbedding] input[0] = NaN
+[SpikingEmbedding] emb[first_5] = 7.253674507141113,4.75799560546875,-2.796452760696411,5.449918746948242,1.0873113870620728
+[SpikingEmbedding] dotData[first_5] = 0,0,0,0,0
+[WARNING] output pooler berisikan SEMUA NOL! (Dead Network)
+[WARNING] Embedding Spikes SEMUA NOL! (Dead Network di Layer 1)
+[trainStepDistill] tokenizedBatch =  [
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined
+]
+[SpikingEmbedding] input[0] = NaN
+[SpikingEmbedding] emb[first_5] = 7.253674507141113,4.75799560546875,-2.796452760696411,5.449918746948242,1.0873113870620728
+[SpikingEmbedding] dotData[first_5] = 0,0,0,0,0
+[WARNING] output pooler berisikan SEMUA NOL! (Dead Network)
+[WARNING] Embedding Spikes SEMUA NOL! (Dead Network di Layer 1)
+[trainStepDistill] tokenizedBatch =  [
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined
+]
+[SpikingEmbedding] input[0] = NaN
+[SpikingEmbedding] emb[first_5] = 7.253674507141113,4.75799560546875,-2.796452760696411,5.449918746948242,1.0873113870620728
+[SpikingEmbedding] dotData[first_5] = 0,0,0,0,0
+[WARNING] output pooler berisikan SEMUA NOL! (Dead Network)
+[WARNING] Embedding Spikes SEMUA NOL! (Dead Network di Layer 1)
+[trainStepDistill] tokenizedBatch =  [
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined
+]
+[SpikingEmbedding] input[0] = NaN
+[SpikingEmbedding] emb[first_5] = 7.253674507141113,4.75799560546875,-2.796452760696411,5.449918746948242,1.0873113870620728
+[SpikingEmbedding] dotData[first_5] = 0,0,0,0,0
+[WARNING] output pooler berisikan SEMUA NOL! (Dead Network)
+[WARNING] Embedding Spikes SEMUA NOL! (Dead Network di Layer 1)
+[trainStepDistill] tokenizedBatch =  [
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined
+]
+[SpikingEmbedding] input[0] = NaN
+[SpikingEmbedding] emb[first_5] = 7.253674507141113,4.75799560546875,-2.796452760696411,5.449918746948242,1.0873113870620728
+[SpikingEmbedding] dotData[first_5] = 0,0,0,0,0
+[WARNING] output pooler berisikan SEMUA NOL! (Dead Network)
+[WARNING] Embedding Spikes SEMUA NOL! (Dead Network di Layer 1)
+[trainStepDistill] tokenizedBatch =  [
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined
+]
+[SpikingEmbedding] input[0] = NaN
+[SpikingEmbedding] emb[first_5] = 7.253674507141113,4.75799560546875,-2.796452760696411,5.449918746948242,1.0873113870620728
+[SpikingEmbedding] dotData[first_5] = 0,0,0,0,0
+[WARNING] output pooler berisikan SEMUA NOL! (Dead Network)
+[WARNING] Embedding Spikes SEMUA NOL! (Dead Network di Layer 1)
+[trainStepDistill] tokenizedBatch =  [
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined
+]
+[SpikingEmbedding] input[0] = NaN
+[SpikingEmbedding] emb[first_5] = 7.253674507141113,4.75799560546875,-2.796452760696411,5.449918746948242,1.0873113870620728
+[SpikingEmbedding] dotData[first_5] = 0,0,0,0,0
+[WARNING] output pooler berisikan SEMUA NOL! (Dead Network)
+[WARNING] Embedding Spikes SEMUA NOL! (Dead Network di Layer 1)
+[trainStepDistill] tokenizedBatch =  [
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined
+]
+[SpikingEmbedding] input[0] = NaN
+[SpikingEmbedding] emb[first_5] = 7.253674507141113,4.75799560546875,-2.796452760696411,5.449918746948242,1.0873113870620728
+[SpikingEmbedding] dotData[first_5] = 0,0,0,0,0
+[WARNING] output pooler berisikan SEMUA NOL! (Dead Network)
+[WARNING] Embedding Spikes SEMUA NOL! (Dead Network di Layer 1)
+[trainStepDistill] tokenizedBatch =  [
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined
+]
+[SpikingEmbedding] input[0] = NaN
+[SpikingEmbedding] emb[first_5] = 7.253674507141113,4.75799560546875,-2.796452760696411,5.449918746948242,1.0873113870620728
+[SpikingEmbedding] dotData[first_5] = 0,0,0,0,0
+[WARNING] output pooler berisikan SEMUA NOL! (Dead Network)
+[WARNING] Embedding Spikes SEMUA NOL! (Dead Network di Layer 1)
+[trainStepDistill] tokenizedBatch =  [
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined
+]
+[SpikingEmbedding] input[0] = NaN
+[SpikingEmbedding] emb[first_5] = 7.253674507141113,4.75799560546875,-2.796452760696411,5.449918746948242,1.0873113870620728
+[SpikingEmbedding] dotData[first_5] = 0,0,0,0,0
+[WARNING] output pooler berisikan SEMUA NOL! (Dead Network)
+[WARNING] Embedding Spikes SEMUA NOL! (Dead Network di Layer 1)
+[trainStepDistill] tokenizedBatch =  [
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined
+]
+[SpikingEmbedding] input[0] = NaN
+[SpikingEmbedding] emb[first_5] = 7.253674507141113,4.75799560546875,-2.796452760696411,5.449918746948242,1.0873113870620728
+[SpikingEmbedding] dotData[first_5] = 0,0,0,0,0
+[WARNING] output pooler berisikan SEMUA NOL! (Dead Network)
+[WARNING] Embedding Spikes SEMUA NOL! (Dead Network di Layer 1)
+[trainStepDistill] tokenizedBatch =  [
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined
+]
+[SpikingEmbedding] input[0] = NaN
+[SpikingEmbedding] emb[first_5] = 7.253674507141113,4.75799560546875,-2.796452760696411,5.449918746948242,1.0873113870620728
+[SpikingEmbedding] dotData[first_5] = 0,0,0,0,0
+[WARNING] output pooler berisikan SEMUA NOL! (Dead Network)
+[WARNING] Embedding Spikes SEMUA NOL! (Dead Network di Layer 1)
+[trainStepDistill] tokenizedBatch =  [
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined
+]
+[SpikingEmbedding] input[0] = NaN
+[SpikingEmbedding] emb[first_5] = 7.253674507141113,4.75799560546875,-2.796452760696411,5.449918746948242,1.0873113870620728
+[SpikingEmbedding] dotData[first_5] = 0,0,0,0,0
+[WARNING] output pooler berisikan SEMUA NOL! (Dead Network)
+[WARNING] Embedding Spikes SEMUA NOL! (Dead Network di Layer 1)
+[trainStepDistill] tokenizedBatch =  [
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined
+]
+[SpikingEmbedding] input[0] = NaN
+[SpikingEmbedding] emb[first_5] = 7.253674507141113,4.75799560546875,-2.796452760696411,5.449918746948242,1.0873113870620728
+[SpikingEmbedding] dotData[first_5] = 0,0,0,0,0
+[WARNING] output pooler berisikan SEMUA NOL! (Dead Network)
+[WARNING] Embedding Spikes SEMUA NOL! (Dead Network di Layer 1)
+[trainStepDistill] tokenizedBatch =  [
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined
+]
+[SpikingEmbedding] input[0] = NaN
+[SpikingEmbedding] emb[first_5] = 7.253674507141113,4.75799560546875,-2.796452760696411,5.449918746948242,1.0873113870620728
+[SpikingEmbedding] dotData[first_5] = 0,0,0,0,0
+[WARNING] output pooler berisikan SEMUA NOL! (Dead Network)
+[WARNING] Embedding Spikes SEMUA NOL! (Dead Network di Layer 1)
+[trainStepDistill] tokenizedBatch =  [
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined
+]
+[SpikingEmbedding] input[0] = NaN
+[SpikingEmbedding] emb[first_5] = 7.253674507141113,4.75799560546875,-2.796452760696411,5.449918746948242,1.0873113870620728
+[SpikingEmbedding] dotData[first_5] = 0,0,0,0,0
+[WARNING] output pooler berisikan SEMUA NOL! (Dead Network)
+[WARNING] Embedding Spikes SEMUA NOL! (Dead Network di Layer 1)
+[trainStepDistill] tokenizedBatch =  [
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined
+]
+[SpikingEmbedding] input[0] = NaN
+[SpikingEmbedding] emb[first_5] = 7.253674507141113,4.75799560546875,-2.796452760696411,5.449918746948242,1.0873113870620728
+[SpikingEmbedding] dotData[first_5] = 0,0,0,0,0
+[WARNING] output pooler berisikan SEMUA NOL! (Dead Network)
+[WARNING] Embedding Spikes SEMUA NOL! (Dead Network di Layer 1)
+[trainStepDistill] tokenizedBatch =  [
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined
+]
+[SpikingEmbedding] input[0] = NaN
+[SpikingEmbedding] emb[first_5] = 7.253674507141113,4.75799560546875,-2.796452760696411,5.449918746948242,1.0873113870620728
+[SpikingEmbedding] dotData[first_5] = 0,0,0,0,0
+[WARNING] output pooler berisikan SEMUA NOL! (Dead Network)
+[WARNING] Embedding Spikes SEMUA NOL! (Dead Network di Layer 1)
+[trainStepDistill] tokenizedBatch =  [
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined
+]
+[SpikingEmbedding] input[0] = NaN
+[SpikingEmbedding] emb[first_5] = 7.253674507141113,4.75799560546875,-2.796452760696411,5.449918746948242,1.0873113870620728
+[SpikingEmbedding] dotData[first_5] = 0,0,0,0,0
+[WARNING] output pooler berisikan SEMUA NOL! (Dead Network)
+[WARNING] Embedding Spikes SEMUA NOL! (Dead Network di Layer 1)
+[trainStepDistill] tokenizedBatch =  [
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined
+]
+[SpikingEmbedding] input[0] = NaN
+[SpikingEmbedding] emb[first_5] = 7.253674507141113,4.75799560546875,-2.796452760696411,5.449918746948242,1.0873113870620728
+[SpikingEmbedding] dotData[first_5] = 0,0,0,0,0
+[WARNING] output pooler berisikan SEMUA NOL! (Dead Network)
+[WARNING] Embedding Spikes SEMUA NOL! (Dead Network di Layer 1)
+[trainStepDistill] tokenizedBatch =  [
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined
+]
+[SpikingEmbedding] input[0] = NaN
+[SpikingEmbedding] emb[first_5] = 7.253674507141113,4.75799560546875,-2.796452760696411,5.449918746948242,1.0873113870620728
+[SpikingEmbedding] dotData[first_5] = 0,0,0,0,0
+[WARNING] output pooler berisikan SEMUA NOL! (Dead Network)
+[WARNING] Embedding Spikes SEMUA NOL! (Dead Network di Layer 1)
+[trainStepDistill] tokenizedBatch =  [
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined
+]
+[SpikingEmbedding] input[0] = NaN
+[SpikingEmbedding] emb[first_5] = 7.253674507141113,4.75799560546875,-2.796452760696411,5.449918746948242,1.0873113870620728
+[SpikingEmbedding] dotData[first_5] = 0,0,0,0,0
+[WARNING] output pooler berisikan SEMUA NOL! (Dead Network)
+[WARNING] Embedding Spikes SEMUA NOL! (Dead Network di Layer 1)
+[trainStepDistill] tokenizedBatch =  [
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined
+]
+[SpikingEmbedding] input[0] = NaN
+[SpikingEmbedding] emb[first_5] = 7.253674507141113,4.75799560546875,-2.796452760696411,5.449918746948242,1.0873113870620728
+[SpikingEmbedding] dotData[first_5] = 0,0,0,0,0
+[WARNING] output pooler berisikan SEMUA NOL! (Dead Network)
+[WARNING] Embedding Spikes SEMUA NOL! (Dead Network di Layer 1)
+[trainStepDistill] tokenizedBatch =  [
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined
+]
+[SpikingEmbedding] input[0] = NaN
+[SpikingEmbedding] emb[first_5] = 7.253674507141113,4.75799560546875,-2.796452760696411,5.449918746948242,1.0873113870620728
+[SpikingEmbedding] dotData[first_5] = 0,0,0,0,0
+[WARNING] output pooler berisikan SEMUA NOL! (Dead Network)
+[WARNING] Embedding Spikes SEMUA NOL! (Dead Network di Layer 1)
+[trainStepDistill] tokenizedBatch =  [
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined
+]
+[SpikingEmbedding] input[0] = NaN
+[SpikingEmbedding] emb[first_5] = 7.253674507141113,4.75799560546875,-2.796452760696411,5.449918746948242,1.0873113870620728
+[SpikingEmbedding] dotData[first_5] = 0,0,0,0,0
+[WARNING] output pooler berisikan SEMUA NOL! (Dead Network)
+[WARNING] Embedding Spikes SEMUA NOL! (Dead Network di Layer 1)
+[trainStepDistill] tokenizedBatch =  [
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined
+]
+[SpikingEmbedding] input[0] = NaN
+[SpikingEmbedding] emb[first_5] = 7.253674507141113,4.75799560546875,-2.796452760696411,5.449918746948242,1.0873113870620728
+[SpikingEmbedding] dotData[first_5] = 0,0,0,0,0
+[WARNING] output pooler berisikan SEMUA NOL! (Dead Network)
+[WARNING] Embedding Spikes SEMUA NOL! (Dead Network di Layer 1)
+[trainStepDistill] tokenizedBatch =  [
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined
+]
+[SpikingEmbedding] input[0] = NaN
+[SpikingEmbedding] emb[first_5] = 7.253674507141113,4.75799560546875,-2.796452760696411,5.449918746948242,1.0873113870620728
+[SpikingEmbedding] dotData[first_5] = 0,0,0,0,0
+[WARNING] output pooler berisikan SEMUA NOL! (Dead Network)
+[WARNING] Embedding Spikes SEMUA NOL! (Dead Network di Layer 1)
+[trainStepDistill] tokenizedBatch =  [
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined
+]
+[SpikingEmbedding] input[0] = NaN
+[SpikingEmbedding] emb[first_5] = 7.253674507141113,4.75799560546875,-2.796452760696411,5.449918746948242,1.0873113870620728
+[SpikingEmbedding] dotData[first_5] = 0,0,0,0,0
+[WARNING] output pooler berisikan SEMUA NOL! (Dead Network)
+[WARNING] Embedding Spikes SEMUA NOL! (Dead Network di Layer 1)
+[trainStepDistill] tokenizedBatch =  [
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined
+]
+[SpikingEmbedding] input[0] = NaN
+[SpikingEmbedding] emb[first_5] = 7.253674507141113,4.75799560546875,-2.796452760696411,5.449918746948242,1.0873113870620728
+[SpikingEmbedding] dotData[first_5] = 0,0,0,0,0
+[WARNING] output pooler berisikan SEMUA NOL! (Dead Network)
+[WARNING] Embedding Spikes SEMUA NOL! (Dead Network di Layer 1)
+[trainStepDistill] tokenizedBatch =  [
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined
+]
+[SpikingEmbedding] input[0] = NaN
+[SpikingEmbedding] emb[first_5] = 7.253674507141113,4.75799560546875,-2.796452760696411,5.449918746948242,1.0873113870620728
+[SpikingEmbedding] dotData[first_5] = 0,0,0,0,0
+[WARNING] output pooler berisikan SEMUA NOL! (Dead Network)
+[WARNING] Embedding Spikes SEMUA NOL! (Dead Network di Layer 1)
+[trainStepDistill] tokenizedBatch =  [
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined
+]
+[SpikingEmbedding] input[0] = NaN
+[SpikingEmbedding] emb[first_5] = 7.253674507141113,4.75799560546875,-2.796452760696411,5.449918746948242,1.0873113870620728
+[SpikingEmbedding] dotData[first_5] = 0,0,0,0,0
+[WARNING] output pooler berisikan SEMUA NOL! (Dead Network)
+[WARNING] Embedding Spikes SEMUA NOL! (Dead Network di Layer 1)
+[trainStepDistill] tokenizedBatch =  [
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined
+]
+[SpikingEmbedding] input[0] = NaN
+[SpikingEmbedding] emb[first_5] = 7.253674507141113,4.75799560546875,-2.796452760696411,5.449918746948242,1.0873113870620728
+[SpikingEmbedding] dotData[first_5] = 0,0,0,0,0
+[WARNING] output pooler berisikan SEMUA NOL! (Dead Network)
+[WARNING] Embedding Spikes SEMUA NOL! (Dead Network di Layer 1)
+[trainStepDistill] tokenizedBatch =  [
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined
+]
+[SpikingEmbedding] input[0] = NaN
+[SpikingEmbedding] emb[first_5] = 7.253674507141113,4.75799560546875,-2.796452760696411,5.449918746948242,1.0873113870620728
+[SpikingEmbedding] dotData[first_5] = 0,0,0,0,0
+[WARNING] output pooler berisikan SEMUA NOL! (Dead Network)
+[WARNING] Embedding Spikes SEMUA NOL! (Dead Network di Layer 1)
+[trainStepDistill] tokenizedBatch =  [
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined
+]
+[SpikingEmbedding] input[0] = NaN
+[SpikingEmbedding] emb[first_5] = 7.253674507141113,4.75799560546875,-2.796452760696411,5.449918746948242,1.0873113870620728
+[SpikingEmbedding] dotData[first_5] = 0,0,0,0,0
+[WARNING] output pooler berisikan SEMUA NOL! (Dead Network)
+[WARNING] Embedding Spikes SEMUA NOL! (Dead Network di Layer 1)
+[trainStepDistill] tokenizedBatch =  [
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined
+]
+[SpikingEmbedding] input[0] = NaN
+[SpikingEmbedding] emb[first_5] = 7.253674507141113,4.75799560546875,-2.796452760696411,5.449918746948242,1.0873113870620728
+[SpikingEmbedding] dotData[first_5] = 0,0,0,0,0
+[WARNING] output pooler berisikan SEMUA NOL! (Dead Network)
+[WARNING] Embedding Spikes SEMUA NOL! (Dead Network di Layer 1)
+[trainStepDistill] tokenizedBatch =  [
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined
+]
+[SpikingEmbedding] input[0] = NaN
+[SpikingEmbedding] emb[first_5] = 7.253674507141113,4.75799560546875,-2.796452760696411,5.449918746948242,1.0873113870620728
+[SpikingEmbedding] dotData[first_5] = 0,0,0,0,0
+[WARNING] output pooler berisikan SEMUA NOL! (Dead Network)
+[WARNING] Embedding Spikes SEMUA NOL! (Dead Network di Layer 1)
+[trainStepDistill] tokenizedBatch =  [
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined
+]
+[SpikingEmbedding] input[0] = NaN
+[SpikingEmbedding] emb[first_5] = 7.253674507141113,4.75799560546875,-2.796452760696411,5.449918746948242,1.0873113870620728
+[SpikingEmbedding] dotData[first_5] = 0,0,0,0,0
+[WARNING] output pooler berisikan SEMUA NOL! (Dead Network)
+[WARNING] Embedding Spikes SEMUA NOL! (Dead Network di Layer 1)
+[trainStepDistill] tokenizedBatch =  [
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined
+]
+[SpikingEmbedding] input[0] = NaN
+[SpikingEmbedding] emb[first_5] = 7.253674507141113,4.75799560546875,-2.796452760696411,5.449918746948242,1.0873113870620728
+[SpikingEmbedding] dotData[first_5] = 0,0,0,0,0
+[WARNING] output pooler berisikan SEMUA NOL! (Dead Network)
+[WARNING] Embedding Spikes SEMUA NOL! (Dead Network di Layer 1)
+[trainStepDistill] tokenizedBatch =  [
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined
+]
+[SpikingEmbedding] input[0] = NaN
+[SpikingEmbedding] emb[first_5] = 7.253674507141113,4.75799560546875,-2.796452760696411,5.449918746948242,1.0873113870620728
+[SpikingEmbedding] dotData[first_5] = 0,0,0,0,0
+[WARNING] output pooler berisikan SEMUA NOL! (Dead Network)
+[WARNING] Embedding Spikes SEMUA NOL! (Dead Network di Layer 1)
+[trainStepDistill] tokenizedBatch =  [
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined
+]
+[SpikingEmbedding] input[0] = NaN
+[SpikingEmbedding] emb[first_5] = 7.253674507141113,4.75799560546875,-2.796452760696411,5.449918746948242,1.0873113870620728
+[SpikingEmbedding] dotData[first_5] = 0,0,0,0,0
+[WARNING] output pooler berisikan SEMUA NOL! (Dead Network)
+[WARNING] Embedding Spikes SEMUA NOL! (Dead Network di Layer 1)
+[trainStepDistill] tokenizedBatch =  [
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined
+]
+[SpikingEmbedding] input[0] = NaN
+[SpikingEmbedding] emb[first_5] = 7.253674507141113,4.75799560546875,-2.796452760696411,5.449918746948242,1.0873113870620728
+[SpikingEmbedding] dotData[first_5] = 0,0,0,0,0
+[WARNING] output pooler berisikan SEMUA NOL! (Dead Network)
+[WARNING] Embedding Spikes SEMUA NOL! (Dead Network di Layer 1)
+[trainStepDistill] tokenizedBatch =  [
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined
+]
+[SpikingEmbedding] input[0] = NaN
+[SpikingEmbedding] emb[first_5] = 7.253674507141113,4.75799560546875,-2.796452760696411,5.449918746948242,1.0873113870620728
+[SpikingEmbedding] dotData[first_5] = 0,0,0,0,0
+[WARNING] output pooler berisikan SEMUA NOL! (Dead Network)
+[WARNING] Embedding Spikes SEMUA NOL! (Dead Network di Layer 1)
+[trainStepDistill] tokenizedBatch =  [
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined
+]
+[SpikingEmbedding] input[0] = NaN
+[SpikingEmbedding] emb[first_5] = 7.253674507141113,4.75799560546875,-2.796452760696411,5.449918746948242,1.0873113870620728
+[SpikingEmbedding] dotData[first_5] = 0,0,0,0,0
+[WARNING] output pooler berisikan SEMUA NOL! (Dead Network)
+[WARNING] Embedding Spikes SEMUA NOL! (Dead Network di Layer 1)
+[trainStepDistill] tokenizedBatch =  [
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined
+]
+[SpikingEmbedding] input[0] = NaN
+[SpikingEmbedding] emb[first_5] = 7.253674507141113,4.75799560546875,-2.796452760696411,5.449918746948242,1.0873113870620728
+[SpikingEmbedding] dotData[first_5] = 0,0,0,0,0
+[WARNING] output pooler berisikan SEMUA NOL! (Dead Network)
+[WARNING] Embedding Spikes SEMUA NOL! (Dead Network di Layer 1)
+[trainStepDistill] tokenizedBatch =  [
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined
+]
+[SpikingEmbedding] input[0] = NaN
+[SpikingEmbedding] emb[first_5] = 7.253674507141113,4.75799560546875,-2.796452760696411,5.449918746948242,1.0873113870620728
+[SpikingEmbedding] dotData[first_5] = 0,0,0,0,0
+[WARNING] output pooler berisikan SEMUA NOL! (Dead Network)
+[WARNING] Embedding Spikes SEMUA NOL! (Dead Network di Layer 1)
+[trainStepDistill] tokenizedBatch =  [
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined
+]
+[SpikingEmbedding] input[0] = NaN
+[SpikingEmbedding] emb[first_5] = 7.253674507141113,4.75799560546875,-2.796452760696411,5.449918746948242,1.0873113870620728
+[SpikingEmbedding] dotData[first_5] = 0,0,0,0,0
+[WARNING] output pooler berisikan SEMUA NOL! (Dead Network)
+[WARNING] Embedding Spikes SEMUA NOL! (Dead Network di Layer 1)
+[trainStepDistill] tokenizedBatch =  [
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined
+]
+[SpikingEmbedding] input[0] = NaN
+[SpikingEmbedding] emb[first_5] = 7.253674507141113,4.75799560546875,-2.796452760696411,5.449918746948242,1.0873113870620728
+[SpikingEmbedding] dotData[first_5] = 0,0,0,0,0
+[WARNING] output pooler berisikan SEMUA NOL! (Dead Network)
+[WARNING] Embedding Spikes SEMUA NOL! (Dead Network di Layer 1)
+[trainStepDistill] tokenizedBatch =  [
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined
+]
+[SpikingEmbedding] input[0] = NaN
+[SpikingEmbedding] emb[first_5] = 7.253674507141113,4.75799560546875,-2.796452760696411,5.449918746948242,1.0873113870620728
+[SpikingEmbedding] dotData[first_5] = 0,0,0,0,0
+[WARNING] output pooler berisikan SEMUA NOL! (Dead Network)
+[WARNING] Embedding Spikes SEMUA NOL! (Dead Network di Layer 1)
+[trainStepDistill] tokenizedBatch =  [
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined
+]
+[SpikingEmbedding] input[0] = NaN
+[SpikingEmbedding] emb[first_5] = 7.253674507141113,4.75799560546875,-2.796452760696411,5.449918746948242,1.0873113870620728
+[SpikingEmbedding] dotData[first_5] = 0,0,0,0,0
+[WARNING] output pooler berisikan SEMUA NOL! (Dead Network)
+[WARNING] Embedding Spikes SEMUA NOL! (Dead Network di Layer 1)
+Loss Awal: 0.8100
+Loss Akhir: 0.8100
+❌ GAGAL: Loss tidak turun secara signifikan.
+
+--- 3. Pengecekan Presisi Backend (MSE Rust vs TS) ---
+Menjalankan sub-proses untuk komparasi Rust vs TS...
+npm notice run @oxide-js/monorepo@2.3.3 npx
+npm notice run 'tsx' test_runner.ts
+npm notice run @oxide-js/monorepo@2.3.3 npx
+npm notice run 'tsx' test_runner.ts
+Loss Rust: 0.0512
+Loss TS  : 0.0512
+MSE      : 0
+✅ BERHASIL: Implementasi TS dan Rust identik (MSE nyaris 0).
+
+--- 4. Benchmark Performa (TS MURNI) ---
+[trainStepDistill] tokenizedBatch =  [
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, 0,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, 0,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined
+]
+[SpikingEmbedding] input[0] = NaN
+[SpikingEmbedding] emb[first_5] = 6.776653289794922,-4.697320461273193,5.30344820022583,1.3131694793701172,-3.612605571746826
+[SpikingEmbedding] dotData[first_5] = 0,0,0,0,0
+[WARNING] output pooler berisikan SEMUA NOL! (Dead Network)
+[trainStepDistill] tokenizedBatch =  [
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, 0,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, 0,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined
+]
+[SpikingEmbedding] input[0] = NaN
+[SpikingEmbedding] emb[first_5] = 1,-1,1,1,-1
+[SpikingEmbedding] dotData[first_5] = 0,0,0,0,0
+[WARNING] output pooler berisikan SEMUA NOL! (Dead Network)
+[trainStepDistill] tokenizedBatch =  [
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, 0,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, 0,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined
+]
+[SpikingEmbedding] input[0] = NaN
+[SpikingEmbedding] emb[first_5] = 1,-1,1,1,-1
+[SpikingEmbedding] dotData[first_5] = 0,0,0,0,0
+[WARNING] output pooler berisikan SEMUA NOL! (Dead Network)
+[trainStepDistill] tokenizedBatch =  [
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, 0,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, 0,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined
+]
+[SpikingEmbedding] input[0] = NaN
+[SpikingEmbedding] emb[first_5] = 1,-1,1,1,-1
+[SpikingEmbedding] dotData[first_5] = 0,0,0,0,0
+[WARNING] output pooler berisikan SEMUA NOL! (Dead Network)
+[trainStepDistill] tokenizedBatch =  [
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, 0,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, 0,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined
+]
+[SpikingEmbedding] input[0] = NaN
+[SpikingEmbedding] emb[first_5] = 1,-1,1,1,-1
+[SpikingEmbedding] dotData[first_5] = 0,0,0,0,0
+[WARNING] output pooler berisikan SEMUA NOL! (Dead Network)
+[trainStepDistill] tokenizedBatch =  [
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, 0,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, 0,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined
+]
+[SpikingEmbedding] input[0] = NaN
+[SpikingEmbedding] emb[first_5] = 1,-1,1,1,-1
+[SpikingEmbedding] dotData[first_5] = 0,0,0,0,0
+[WARNING] output pooler berisikan SEMUA NOL! (Dead Network)
+[trainStepDistill] tokenizedBatch =  [
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, 0,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, 0,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined
+]
+[SpikingEmbedding] input[0] = NaN
+[SpikingEmbedding] emb[first_5] = 1,-1,1,1,-1
+[SpikingEmbedding] dotData[first_5] = 0,0,0,0,0
+[WARNING] output pooler berisikan SEMUA NOL! (Dead Network)
+[trainStepDistill] tokenizedBatch =  [
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, 0,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, 0,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined
+]
+[SpikingEmbedding] input[0] = NaN
+[SpikingEmbedding] emb[first_5] = 1,-1,1,1,-1
+[SpikingEmbedding] dotData[first_5] = 0,0,0,0,0
+[WARNING] output pooler berisikan SEMUA NOL! (Dead Network)
+[trainStepDistill] tokenizedBatch =  [
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, 0,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, 0,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined
+]
+[SpikingEmbedding] input[0] = NaN
+[SpikingEmbedding] emb[first_5] = 1,-1,1,1,-1
+[SpikingEmbedding] dotData[first_5] = 0,0,0,0,0
+[WARNING] output pooler berisikan SEMUA NOL! (Dead Network)
+[trainStepDistill] tokenizedBatch =  [
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, 0,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, 0,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined
+]
+[SpikingEmbedding] input[0] = NaN
+[SpikingEmbedding] emb[first_5] = 1,-1,1,1,-1
+[SpikingEmbedding] dotData[first_5] = 0,0,0,0,0
+[WARNING] output pooler berisikan SEMUA NOL! (Dead Network)
+[trainStepDistill] tokenizedBatch =  [
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, 0,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, 0,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined
+]
+[SpikingEmbedding] input[0] = NaN
+[SpikingEmbedding] emb[first_5] = 1,-1,1,1,-1
+[SpikingEmbedding] dotData[first_5] = 0,0,0,0,0
+[WARNING] output pooler berisikan SEMUA NOL! (Dead Network)
+[trainStepDistill] tokenizedBatch =  [
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, 0,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, 0,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined
+]
+[SpikingEmbedding] input[0] = NaN
+[SpikingEmbedding] emb[first_5] = 1,-1,1,1,-1
+[SpikingEmbedding] dotData[first_5] = 0,0,0,0,0
+[WARNING] output pooler berisikan SEMUA NOL! (Dead Network)
+[trainStepDistill] tokenizedBatch =  [
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, 0,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, 0,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined
+]
+[SpikingEmbedding] input[0] = NaN
+[SpikingEmbedding] emb[first_5] = 1,-1,1,1,-1
+[SpikingEmbedding] dotData[first_5] = 0,0,0,0,0
+[WARNING] output pooler berisikan SEMUA NOL! (Dead Network)
+[trainStepDistill] tokenizedBatch =  [
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, 0,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, 0,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined
+]
+[SpikingEmbedding] input[0] = NaN
+[SpikingEmbedding] emb[first_5] = 1,-1,1,1,-1
+[SpikingEmbedding] dotData[first_5] = 0,0,0,0,0
+[WARNING] output pooler berisikan SEMUA NOL! (Dead Network)
+[trainStepDistill] tokenizedBatch =  [
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, 0,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, 0,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined
+]
+[SpikingEmbedding] input[0] = NaN
+[SpikingEmbedding] emb[first_5] = 1,-1,1,1,-1
+[SpikingEmbedding] dotData[first_5] = 0,0,0,0,0
+[WARNING] output pooler berisikan SEMUA NOL! (Dead Network)
+[trainStepDistill] tokenizedBatch =  [
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, 0,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, 0,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined
+]
+[SpikingEmbedding] input[0] = NaN
+[SpikingEmbedding] emb[first_5] = 1,-1,1,1,-1
+[SpikingEmbedding] dotData[first_5] = 0,0,0,0,0
+[WARNING] output pooler berisikan SEMUA NOL! (Dead Network)
+[trainStepDistill] tokenizedBatch =  [
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, 0,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, 0,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined
+]
+[SpikingEmbedding] input[0] = NaN
+[SpikingEmbedding] emb[first_5] = 1,-1,1,1,-1
+[SpikingEmbedding] dotData[first_5] = 0,0,0,0,0
+[WARNING] output pooler berisikan SEMUA NOL! (Dead Network)
+[trainStepDistill] tokenizedBatch =  [
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, 0,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, 0,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined
+]
+[SpikingEmbedding] input[0] = NaN
+[SpikingEmbedding] emb[first_5] = 1,-1,1,1,-1
+[SpikingEmbedding] dotData[first_5] = 0,0,0,0,0
+[WARNING] output pooler berisikan SEMUA NOL! (Dead Network)
+[trainStepDistill] tokenizedBatch =  [
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, 0,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, 0,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined
+]
+[SpikingEmbedding] input[0] = NaN
+[SpikingEmbedding] emb[first_5] = 1,-1,1,1,-1
+[SpikingEmbedding] dotData[first_5] = 0,0,0,0,0
+[WARNING] output pooler berisikan SEMUA NOL! (Dead Network)
+[trainStepDistill] tokenizedBatch =  [
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, 0,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, 0,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined
+]
+[SpikingEmbedding] input[0] = NaN
+[SpikingEmbedding] emb[first_5] = 1,-1,1,1,-1
+[SpikingEmbedding] dotData[first_5] = 0,0,0,0,0
+[WARNING] output pooler berisikan SEMUA NOL! (Dead Network)
+[trainStepDistill] tokenizedBatch =  [
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, 0,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, 0,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined
+]
+[SpikingEmbedding] input[0] = NaN
+[SpikingEmbedding] emb[first_5] = 1,-1,1,1,-1
+[SpikingEmbedding] dotData[first_5] = 0,0,0,0,0
+[WARNING] output pooler berisikan SEMUA NOL! (Dead Network)
+[trainStepDistill] tokenizedBatch =  [
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, 0,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, 0,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined
+]
+[SpikingEmbedding] input[0] = NaN
+[SpikingEmbedding] emb[first_5] = 1,-1,1,1,-1
+[SpikingEmbedding] dotData[first_5] = 0,0,0,0,0
+[WARNING] output pooler berisikan SEMUA NOL! (Dead Network)
+[trainStepDistill] tokenizedBatch =  [
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, 0,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, 0,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined
+]
+[SpikingEmbedding] input[0] = NaN
+[SpikingEmbedding] emb[first_5] = 1,-1,1,1,-1
+[SpikingEmbedding] dotData[first_5] = 0,0,0,0,0
+[WARNING] output pooler berisikan SEMUA NOL! (Dead Network)
+[trainStepDistill] tokenizedBatch =  [
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, 0,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, 0,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined
+]
+[SpikingEmbedding] input[0] = NaN
+[SpikingEmbedding] emb[first_5] = 1,-1,1,1,-1
+[SpikingEmbedding] dotData[first_5] = 0,0,0,0,0
+[WARNING] output pooler berisikan SEMUA NOL! (Dead Network)
+[trainStepDistill] tokenizedBatch =  [
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, 0,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, 0,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined
+]
+[SpikingEmbedding] input[0] = NaN
+[SpikingEmbedding] emb[first_5] = 1,-1,1,1,-1
+[SpikingEmbedding] dotData[first_5] = 0,0,0,0,0
+[WARNING] output pooler berisikan SEMUA NOL! (Dead Network)
+[trainStepDistill] tokenizedBatch =  [
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, 0,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, 0,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined
+]
+[SpikingEmbedding] input[0] = NaN
+[SpikingEmbedding] emb[first_5] = 1,-1,1,1,-1
+[SpikingEmbedding] dotData[first_5] = 0,0,0,0,0
+[WARNING] output pooler berisikan SEMUA NOL! (Dead Network)
+[trainStepDistill] tokenizedBatch =  [
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, 0,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, 0,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined
+]
+[SpikingEmbedding] input[0] = NaN
+[SpikingEmbedding] emb[first_5] = 1,-1,1,1,-1
+[SpikingEmbedding] dotData[first_5] = 0,0,0,0,0
+[WARNING] output pooler berisikan SEMUA NOL! (Dead Network)
+[trainStepDistill] tokenizedBatch =  [
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, 0,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, 0,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined
+]
+[SpikingEmbedding] input[0] = NaN
+[SpikingEmbedding] emb[first_5] = 1,-1,1,1,-1
+[SpikingEmbedding] dotData[first_5] = 0,0,0,0,0
+[WARNING] output pooler berisikan SEMUA NOL! (Dead Network)
+[trainStepDistill] tokenizedBatch =  [
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, 0,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, 0,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined
+]
+[SpikingEmbedding] input[0] = NaN
+[SpikingEmbedding] emb[first_5] = 1,-1,1,1,-1
+[SpikingEmbedding] dotData[first_5] = 0,0,0,0,0
+[WARNING] output pooler berisikan SEMUA NOL! (Dead Network)
+[trainStepDistill] tokenizedBatch =  [
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, 0,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, 0,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined
+]
+[SpikingEmbedding] input[0] = NaN
+[SpikingEmbedding] emb[first_5] = 1,-1,1,1,-1
+[SpikingEmbedding] dotData[first_5] = 0,0,0,0,0
+[WARNING] output pooler berisikan SEMUA NOL! (Dead Network)
+[trainStepDistill] tokenizedBatch =  [
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, 0,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, 0,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined
+]
+[SpikingEmbedding] input[0] = NaN
+[SpikingEmbedding] emb[first_5] = 1,-1,1,1,-1
+[SpikingEmbedding] dotData[first_5] = 0,0,0,0,0
+[WARNING] output pooler berisikan SEMUA NOL! (Dead Network)
+[trainStepDistill] tokenizedBatch =  [
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, 0,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, 0,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined
+]
+[SpikingEmbedding] input[0] = NaN
+[SpikingEmbedding] emb[first_5] = 1,-1,1,1,-1
+[SpikingEmbedding] dotData[first_5] = 0,0,0,0,0
+[WARNING] output pooler berisikan SEMUA NOL! (Dead Network)
+[trainStepDistill] tokenizedBatch =  [
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, 0,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, 0,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined
+]
+[SpikingEmbedding] input[0] = NaN
+[SpikingEmbedding] emb[first_5] = 1,-1,1,1,-1
+[SpikingEmbedding] dotData[first_5] = 0,0,0,0,0
+[WARNING] output pooler berisikan SEMUA NOL! (Dead Network)
+[trainStepDistill] tokenizedBatch =  [
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, 0,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, 0,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined
+]
+[SpikingEmbedding] input[0] = NaN
+[SpikingEmbedding] emb[first_5] = 1,-1,1,1,-1
+[SpikingEmbedding] dotData[first_5] = 0,0,0,0,0
+[WARNING] output pooler berisikan SEMUA NOL! (Dead Network)
+[trainStepDistill] tokenizedBatch =  [
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, 0,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, 0,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined
+]
+[SpikingEmbedding] input[0] = NaN
+[SpikingEmbedding] emb[first_5] = 1,-1,1,1,-1
+[SpikingEmbedding] dotData[first_5] = 0,0,0,0,0
+[WARNING] output pooler berisikan SEMUA NOL! (Dead Network)
+[trainStepDistill] tokenizedBatch =  [
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, 0,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, 0,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined
+]
+[SpikingEmbedding] input[0] = NaN
+[SpikingEmbedding] emb[first_5] = 1,-1,1,1,-1
+[SpikingEmbedding] dotData[first_5] = 0,0,0,0,0
+[WARNING] output pooler berisikan SEMUA NOL! (Dead Network)
+[trainStepDistill] tokenizedBatch =  [
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, 0,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, 0,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined
+]
+[SpikingEmbedding] input[0] = NaN
+[SpikingEmbedding] emb[first_5] = 1,-1,1,1,-1
+[SpikingEmbedding] dotData[first_5] = 0,0,0,0,0
+[WARNING] output pooler berisikan SEMUA NOL! (Dead Network)
+[trainStepDistill] tokenizedBatch =  [
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, 0,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, 0,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined
+]
+[SpikingEmbedding] input[0] = NaN
+[SpikingEmbedding] emb[first_5] = 1,-1,1,1,-1
+[SpikingEmbedding] dotData[first_5] = 0,0,0,0,0
+[WARNING] output pooler berisikan SEMUA NOL! (Dead Network)
+[trainStepDistill] tokenizedBatch =  [
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, 0,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, 0,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined
+]
+[SpikingEmbedding] input[0] = NaN
+[SpikingEmbedding] emb[first_5] = 1,-1,1,1,-1
+[SpikingEmbedding] dotData[first_5] = 0,0,0,0,0
+[WARNING] output pooler berisikan SEMUA NOL! (Dead Network)
+[trainStepDistill] tokenizedBatch =  [
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, 0,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, 0,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined
+]
+[SpikingEmbedding] input[0] = NaN
+[SpikingEmbedding] emb[first_5] = 1,-1,1,1,-1
+[SpikingEmbedding] dotData[first_5] = 0,0,0,0,0
+[WARNING] output pooler berisikan SEMUA NOL! (Dead Network)
+[trainStepDistill] tokenizedBatch =  [
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, 0,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, 0,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined
+]
+[SpikingEmbedding] input[0] = NaN
+[SpikingEmbedding] emb[first_5] = 1,-1,1,1,-1
+[SpikingEmbedding] dotData[first_5] = 0,0,0,0,0
+[WARNING] output pooler berisikan SEMUA NOL! (Dead Network)
+[trainStepDistill] tokenizedBatch =  [
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, 0,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, 0,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined
+]
+[SpikingEmbedding] input[0] = NaN
+[SpikingEmbedding] emb[first_5] = 1,-1,1,1,-1
+[SpikingEmbedding] dotData[first_5] = 0,0,0,0,0
+[WARNING] output pooler berisikan SEMUA NOL! (Dead Network)
+[trainStepDistill] tokenizedBatch =  [
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, 0,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, 0,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined
+]
+[SpikingEmbedding] input[0] = NaN
+[SpikingEmbedding] emb[first_5] = 1,-1,1,1,-1
+[SpikingEmbedding] dotData[first_5] = 0,0,0,0,0
+[WARNING] output pooler berisikan SEMUA NOL! (Dead Network)
+[trainStepDistill] tokenizedBatch =  [
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, 0,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, 0,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined
+]
+[SpikingEmbedding] input[0] = NaN
+[SpikingEmbedding] emb[first_5] = 1,-1,1,1,-1
+[SpikingEmbedding] dotData[first_5] = 0,0,0,0,0
+[WARNING] output pooler berisikan SEMUA NOL! (Dead Network)
+[trainStepDistill] tokenizedBatch =  [
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, 0,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, 0,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined
+]
+[SpikingEmbedding] input[0] = NaN
+[SpikingEmbedding] emb[first_5] = 1,-1,1,1,-1
+[SpikingEmbedding] dotData[first_5] = 0,0,0,0,0
+[WARNING] output pooler berisikan SEMUA NOL! (Dead Network)
+[trainStepDistill] tokenizedBatch =  [
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, 0,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, 0,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined
+]
+[SpikingEmbedding] input[0] = NaN
+[SpikingEmbedding] emb[first_5] = 1,-1,1,1,-1
+[SpikingEmbedding] dotData[first_5] = 0,0,0,0,0
+[WARNING] output pooler berisikan SEMUA NOL! (Dead Network)
+[trainStepDistill] tokenizedBatch =  [
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, 0,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, 0,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined
+]
+[SpikingEmbedding] input[0] = NaN
+[SpikingEmbedding] emb[first_5] = 1,-1,1,1,-1
+[SpikingEmbedding] dotData[first_5] = 0,0,0,0,0
+[WARNING] output pooler berisikan SEMUA NOL! (Dead Network)
+[trainStepDistill] tokenizedBatch =  [
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, 0,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, 0,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined
+]
+[SpikingEmbedding] input[0] = NaN
+[SpikingEmbedding] emb[first_5] = 1,-1,1,1,-1
+[SpikingEmbedding] dotData[first_5] = 0,0,0,0,0
+[WARNING] output pooler berisikan SEMUA NOL! (Dead Network)
+[trainStepDistill] tokenizedBatch =  [
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, 0,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, 0,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined
+]
+[SpikingEmbedding] input[0] = NaN
+[SpikingEmbedding] emb[first_5] = 1,-1,1,1,-1
+[SpikingEmbedding] dotData[first_5] = 0,0,0,0,0
+[WARNING] output pooler berisikan SEMUA NOL! (Dead Network)
+[trainStepDistill] tokenizedBatch =  [
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, 0,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, 0,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined
+]
+[SpikingEmbedding] input[0] = NaN
+[SpikingEmbedding] emb[first_5] = 1,-1,1,1,-1
+[SpikingEmbedding] dotData[first_5] = 0,0,0,0,0
+[WARNING] output pooler berisikan SEMUA NOL! (Dead Network)
+[trainStepDistill] tokenizedBatch =  [
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, 0,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, 0,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined
+]
+[SpikingEmbedding] input[0] = NaN
+[SpikingEmbedding] emb[first_5] = 1,-1,1,1,-1
+[SpikingEmbedding] dotData[first_5] = 0,0,0,0,0
+[WARNING] output pooler berisikan SEMUA NOL! (Dead Network)
+[trainStepDistill] tokenizedBatch =  [
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, 0,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, 0,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined
+]
+[SpikingEmbedding] input[0] = NaN
+[SpikingEmbedding] emb[first_5] = 1,-1,1,1,-1
+[SpikingEmbedding] dotData[first_5] = 0,0,0,0,0
+[WARNING] output pooler berisikan SEMUA NOL! (Dead Network)
+[trainStepDistill] tokenizedBatch =  [
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, 0,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, 0,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined
+]
+[SpikingEmbedding] input[0] = NaN
+[SpikingEmbedding] emb[first_5] = 1,-1,1,1,-1
+[SpikingEmbedding] dotData[first_5] = 0,0,0,0,0
+[WARNING] output pooler berisikan SEMUA NOL! (Dead Network)
+[trainStepDistill] tokenizedBatch =  [
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, 0,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, 0,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined
+]
+[SpikingEmbedding] input[0] = NaN
+[SpikingEmbedding] emb[first_5] = 1,-1,1,1,-1
+[SpikingEmbedding] dotData[first_5] = 0,0,0,0,0
+[WARNING] output pooler berisikan SEMUA NOL! (Dead Network)
+[trainStepDistill] tokenizedBatch =  [
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, 0,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, 0,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined
+]
+[SpikingEmbedding] input[0] = NaN
+[SpikingEmbedding] emb[first_5] = 1,-1,1,1,-1
+[SpikingEmbedding] dotData[first_5] = 0,0,0,0,0
+[WARNING] output pooler berisikan SEMUA NOL! (Dead Network)
+[trainStepDistill] tokenizedBatch =  [
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, 0,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, 0,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined
+]
+[SpikingEmbedding] input[0] = NaN
+[SpikingEmbedding] emb[first_5] = 1,-1,1,1,-1
+[SpikingEmbedding] dotData[first_5] = 0,0,0,0,0
+[WARNING] output pooler berisikan SEMUA NOL! (Dead Network)
+[trainStepDistill] tokenizedBatch =  [
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, 0,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, 0,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined
+]
+[SpikingEmbedding] input[0] = NaN
+[SpikingEmbedding] emb[first_5] = 1,-1,1,1,-1
+[SpikingEmbedding] dotData[first_5] = 0,0,0,0,0
+[WARNING] output pooler berisikan SEMUA NOL! (Dead Network)
+[trainStepDistill] tokenizedBatch =  [
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, 0,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, 0,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined
+]
+[SpikingEmbedding] input[0] = NaN
+[SpikingEmbedding] emb[first_5] = 1,-1,1,1,-1
+[SpikingEmbedding] dotData[first_5] = 0,0,0,0,0
+[WARNING] output pooler berisikan SEMUA NOL! (Dead Network)
+[trainStepDistill] tokenizedBatch =  [
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, 0,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, 0,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined
+]
+[SpikingEmbedding] input[0] = NaN
+[SpikingEmbedding] emb[first_5] = 1,-1,1,1,-1
+[SpikingEmbedding] dotData[first_5] = 0,0,0,0,0
+[WARNING] output pooler berisikan SEMUA NOL! (Dead Network)
+[trainStepDistill] tokenizedBatch =  [
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, 0,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, 0,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined
+]
+[SpikingEmbedding] input[0] = NaN
+[SpikingEmbedding] emb[first_5] = 1,-1,1,1,-1
+[SpikingEmbedding] dotData[first_5] = 0,0,0,0,0
+[WARNING] output pooler berisikan SEMUA NOL! (Dead Network)
+[trainStepDistill] tokenizedBatch =  [
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, 0,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, 0,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined
+]
+[SpikingEmbedding] input[0] = NaN
+[SpikingEmbedding] emb[first_5] = 1,-1,1,1,-1
+[SpikingEmbedding] dotData[first_5] = 0,0,0,0,0
+[WARNING] output pooler berisikan SEMUA NOL! (Dead Network)
+[trainStepDistill] tokenizedBatch =  [
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, 0,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, 0,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined
+]
+[SpikingEmbedding] input[0] = NaN
+[SpikingEmbedding] emb[first_5] = 1,-1,1,1,-1
+[SpikingEmbedding] dotData[first_5] = 0,0,0,0,0
+[WARNING] output pooler berisikan SEMUA NOL! (Dead Network)
+[trainStepDistill] tokenizedBatch =  [
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, 0,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, 0,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined
+]
+[SpikingEmbedding] input[0] = NaN
+[SpikingEmbedding] emb[first_5] = 1,-1,1,1,-1
+[SpikingEmbedding] dotData[first_5] = 0,0,0,0,0
+[WARNING] output pooler berisikan SEMUA NOL! (Dead Network)
+[trainStepDistill] tokenizedBatch =  [
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, 0,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, 0,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined
+]
+[SpikingEmbedding] input[0] = NaN
+[SpikingEmbedding] emb[first_5] = 1,-1,1,1,-1
+[SpikingEmbedding] dotData[first_5] = 0,0,0,0,0
+[WARNING] output pooler berisikan SEMUA NOL! (Dead Network)
+[trainStepDistill] tokenizedBatch =  [
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, 0,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, 0,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined
+]
+[SpikingEmbedding] input[0] = NaN
+[SpikingEmbedding] emb[first_5] = 1,-1,1,1,-1
+[SpikingEmbedding] dotData[first_5] = 0,0,0,0,0
+[WARNING] output pooler berisikan SEMUA NOL! (Dead Network)
+[trainStepDistill] tokenizedBatch =  [
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, 0,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, 0,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined
+]
+[SpikingEmbedding] input[0] = NaN
+[SpikingEmbedding] emb[first_5] = 1,-1,1,1,-1
+[SpikingEmbedding] dotData[first_5] = 0,0,0,0,0
+[WARNING] output pooler berisikan SEMUA NOL! (Dead Network)
+[trainStepDistill] tokenizedBatch =  [
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, 0,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, 0,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined
+]
+[SpikingEmbedding] input[0] = NaN
+[SpikingEmbedding] emb[first_5] = 1,-1,1,1,-1
+[SpikingEmbedding] dotData[first_5] = 0,0,0,0,0
+[WARNING] output pooler berisikan SEMUA NOL! (Dead Network)
+[trainStepDistill] tokenizedBatch =  [
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, 0,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, 0,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined
+]
+[SpikingEmbedding] input[0] = NaN
+[SpikingEmbedding] emb[first_5] = 1,-1,1,1,-1
+[SpikingEmbedding] dotData[first_5] = 0,0,0,0,0
+[WARNING] output pooler berisikan SEMUA NOL! (Dead Network)
+[trainStepDistill] tokenizedBatch =  [
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, 0,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, 0,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined
+]
+[SpikingEmbedding] input[0] = NaN
+[SpikingEmbedding] emb[first_5] = 1,-1,1,1,-1
+[SpikingEmbedding] dotData[first_5] = 0,0,0,0,0
+[WARNING] output pooler berisikan SEMUA NOL! (Dead Network)
+[trainStepDistill] tokenizedBatch =  [
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, 0,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, 0,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined
+]
+[SpikingEmbedding] input[0] = NaN
+[SpikingEmbedding] emb[first_5] = 1,-1,1,1,-1
+[SpikingEmbedding] dotData[first_5] = 0,0,0,0,0
+[WARNING] output pooler berisikan SEMUA NOL! (Dead Network)
+[trainStepDistill] tokenizedBatch =  [
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, 0,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, 0,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined
+]
+[SpikingEmbedding] input[0] = NaN
+[SpikingEmbedding] emb[first_5] = 1,-1,1,1,-1
+[SpikingEmbedding] dotData[first_5] = 0,0,0,0,0
+[WARNING] output pooler berisikan SEMUA NOL! (Dead Network)
+[trainStepDistill] tokenizedBatch =  [
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, 0,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, 0,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined
+]
+[SpikingEmbedding] input[0] = NaN
+[SpikingEmbedding] emb[first_5] = 1,-1,1,1,-1
+[SpikingEmbedding] dotData[first_5] = 0,0,0,0,0
+[WARNING] output pooler berisikan SEMUA NOL! (Dead Network)
+[trainStepDistill] tokenizedBatch =  [
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, 0,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, 0,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined
+]
+[SpikingEmbedding] input[0] = NaN
+[SpikingEmbedding] emb[first_5] = 1,-1,1,1,-1
+[SpikingEmbedding] dotData[first_5] = 0,0,0,0,0
+[WARNING] output pooler berisikan SEMUA NOL! (Dead Network)
+[trainStepDistill] tokenizedBatch =  [
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, 0,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, 0,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined
+]
+[SpikingEmbedding] input[0] = NaN
+[SpikingEmbedding] emb[first_5] = 1,-1,1,1,-1
+[SpikingEmbedding] dotData[first_5] = 0,0,0,0,0
+[WARNING] output pooler berisikan SEMUA NOL! (Dead Network)
+[trainStepDistill] tokenizedBatch =  [
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, 0,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, 0,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined
+]
+[SpikingEmbedding] input[0] = NaN
+[SpikingEmbedding] emb[first_5] = 1,-1,1,1,-1
+[SpikingEmbedding] dotData[first_5] = 0,0,0,0,0
+[WARNING] output pooler berisikan SEMUA NOL! (Dead Network)
+[trainStepDistill] tokenizedBatch =  [
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, 0,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, 0,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined
+]
+[SpikingEmbedding] input[0] = NaN
+[SpikingEmbedding] emb[first_5] = 1,-1,1,1,-1
+[SpikingEmbedding] dotData[first_5] = 0,0,0,0,0
+[WARNING] output pooler berisikan SEMUA NOL! (Dead Network)
+[trainStepDistill] tokenizedBatch =  [
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, 0,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, 0,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined
+]
+[SpikingEmbedding] input[0] = NaN
+[SpikingEmbedding] emb[first_5] = 1,-1,1,1,-1
+[SpikingEmbedding] dotData[first_5] = 0,0,0,0,0
+[WARNING] output pooler berisikan SEMUA NOL! (Dead Network)
+[trainStepDistill] tokenizedBatch =  [
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, 0,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, 0,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined
+]
+[SpikingEmbedding] input[0] = NaN
+[SpikingEmbedding] emb[first_5] = 1,-1,1,1,-1
+[SpikingEmbedding] dotData[first_5] = 0,0,0,0,0
+[WARNING] output pooler berisikan SEMUA NOL! (Dead Network)
+[trainStepDistill] tokenizedBatch =  [
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, 0,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, 0,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined
+]
+[SpikingEmbedding] input[0] = NaN
+[SpikingEmbedding] emb[first_5] = 1,-1,1,1,-1
+[SpikingEmbedding] dotData[first_5] = 0,0,0,0,0
+[WARNING] output pooler berisikan SEMUA NOL! (Dead Network)
+[trainStepDistill] tokenizedBatch =  [
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, 0,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, 0,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined
+]
+[SpikingEmbedding] input[0] = NaN
+[SpikingEmbedding] emb[first_5] = 1,-1,1,1,-1
+[SpikingEmbedding] dotData[first_5] = 0,0,0,0,0
+[WARNING] output pooler berisikan SEMUA NOL! (Dead Network)
+[trainStepDistill] tokenizedBatch =  [
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, 0,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, 0,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined
+]
+[SpikingEmbedding] input[0] = NaN
+[SpikingEmbedding] emb[first_5] = 1,-1,1,1,-1
+[SpikingEmbedding] dotData[first_5] = 0,0,0,0,0
+[WARNING] output pooler berisikan SEMUA NOL! (Dead Network)
+[trainStepDistill] tokenizedBatch =  [
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, 0,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, 0,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined
+]
+[SpikingEmbedding] input[0] = NaN
+[SpikingEmbedding] emb[first_5] = 1,-1,1,1,-1
+[SpikingEmbedding] dotData[first_5] = 0,0,0,0,0
+[WARNING] output pooler berisikan SEMUA NOL! (Dead Network)
+[trainStepDistill] tokenizedBatch =  [
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, 0,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, 0,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined
+]
+[SpikingEmbedding] input[0] = NaN
+[SpikingEmbedding] emb[first_5] = 1,-1,1,1,-1
+[SpikingEmbedding] dotData[first_5] = 0,0,0,0,0
+[WARNING] output pooler berisikan SEMUA NOL! (Dead Network)
+[trainStepDistill] tokenizedBatch =  [
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, 0,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, 0,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined
+]
+[SpikingEmbedding] input[0] = NaN
+[SpikingEmbedding] emb[first_5] = 1,-1,1,1,-1
+[SpikingEmbedding] dotData[first_5] = 0,0,0,0,0
+[WARNING] output pooler berisikan SEMUA NOL! (Dead Network)
+[trainStepDistill] tokenizedBatch =  [
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, 0,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, 0,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined
+]
+[SpikingEmbedding] input[0] = NaN
+[SpikingEmbedding] emb[first_5] = 1,-1,1,1,-1
+[SpikingEmbedding] dotData[first_5] = 0,0,0,0,0
+[WARNING] output pooler berisikan SEMUA NOL! (Dead Network)
+[trainStepDistill] tokenizedBatch =  [
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, 0,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, 0,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined
+]
+[SpikingEmbedding] input[0] = NaN
+[SpikingEmbedding] emb[first_5] = 1,-1,1,1,-1
+[SpikingEmbedding] dotData[first_5] = 0,0,0,0,0
+[WARNING] output pooler berisikan SEMUA NOL! (Dead Network)
+[trainStepDistill] tokenizedBatch =  [
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, 0,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, 0,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined
+]
+[SpikingEmbedding] input[0] = NaN
+[SpikingEmbedding] emb[first_5] = 1,-1,1,1,-1
+[SpikingEmbedding] dotData[first_5] = 0,0,0,0,0
+[WARNING] output pooler berisikan SEMUA NOL! (Dead Network)
+[trainStepDistill] tokenizedBatch =  [
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, 0,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, 0,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined
+]
+[SpikingEmbedding] input[0] = NaN
+[SpikingEmbedding] emb[first_5] = 1,-1,1,1,-1
+[SpikingEmbedding] dotData[first_5] = 0,0,0,0,0
+[WARNING] output pooler berisikan SEMUA NOL! (Dead Network)
+[trainStepDistill] tokenizedBatch =  [
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, 0,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, 0,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined
+]
+[SpikingEmbedding] input[0] = NaN
+[SpikingEmbedding] emb[first_5] = 1,-1,1,1,-1
+[SpikingEmbedding] dotData[first_5] = 0,0,0,0,0
+[WARNING] output pooler berisikan SEMUA NOL! (Dead Network)
+[trainStepDistill] tokenizedBatch =  [
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, 0,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, 0,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined
+]
+[SpikingEmbedding] input[0] = NaN
+[SpikingEmbedding] emb[first_5] = 1,-1,1,1,-1
+[SpikingEmbedding] dotData[first_5] = 0,0,0,0,0
+[WARNING] output pooler berisikan SEMUA NOL! (Dead Network)
+[trainStepDistill] tokenizedBatch =  [
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, 0,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, 0,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined
+]
+[SpikingEmbedding] input[0] = NaN
+[SpikingEmbedding] emb[first_5] = 1,-1,1,1,-1
+[SpikingEmbedding] dotData[first_5] = 0,0,0,0,0
+[WARNING] output pooler berisikan SEMUA NOL! (Dead Network)
+[trainStepDistill] tokenizedBatch =  [
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, 0,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, 0,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined
+]
+[SpikingEmbedding] input[0] = NaN
+[SpikingEmbedding] emb[first_5] = 1,-1,1,1,-1
+[SpikingEmbedding] dotData[first_5] = 0,0,0,0,0
+[WARNING] output pooler berisikan SEMUA NOL! (Dead Network)
+[trainStepDistill] tokenizedBatch =  [
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, 0,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, 0,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined
+]
+[SpikingEmbedding] input[0] = NaN
+[SpikingEmbedding] emb[first_5] = 1,-1,1,1,-1
+[SpikingEmbedding] dotData[first_5] = 0,0,0,0,0
+[WARNING] output pooler berisikan SEMUA NOL! (Dead Network)
+[trainStepDistill] tokenizedBatch =  [
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, 0,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, 0,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined
+]
+[SpikingEmbedding] input[0] = NaN
+[SpikingEmbedding] emb[first_5] = 1,-1,1,1,-1
+[SpikingEmbedding] dotData[first_5] = 0,0,0,0,0
+[WARNING] output pooler berisikan SEMUA NOL! (Dead Network)
+[trainStepDistill] tokenizedBatch =  [
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, 0,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, 0,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined
+]
+[SpikingEmbedding] input[0] = NaN
+[SpikingEmbedding] emb[first_5] = 1,-1,1,1,-1
+[SpikingEmbedding] dotData[first_5] = 0,0,0,0,0
+[WARNING] output pooler berisikan SEMUA NOL! (Dead Network)
+[trainStepDistill] tokenizedBatch =  [
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, 0,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, 0,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined
+]
+[SpikingEmbedding] input[0] = NaN
+[SpikingEmbedding] emb[first_5] = 1,-1,1,1,-1
+[SpikingEmbedding] dotData[first_5] = 0,0,0,0,0
+[WARNING] output pooler berisikan SEMUA NOL! (Dead Network)
+[trainStepDistill] tokenizedBatch =  [
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, 0,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, 0,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined
+]
+[SpikingEmbedding] input[0] = NaN
+[SpikingEmbedding] emb[first_5] = 1,-1,1,1,-1
+[SpikingEmbedding] dotData[first_5] = 0,0,0,0,0
+[WARNING] output pooler berisikan SEMUA NOL! (Dead Network)
+[trainStepDistill] tokenizedBatch =  [
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, 0,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, 0,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined
+]
+[SpikingEmbedding] input[0] = NaN
+[SpikingEmbedding] emb[first_5] = 1,-1,1,1,-1
+[SpikingEmbedding] dotData[first_5] = 0,0,0,0,0
+[WARNING] output pooler berisikan SEMUA NOL! (Dead Network)
+[trainStepDistill] tokenizedBatch =  [
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, 0,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, 0,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined
+]
+[SpikingEmbedding] input[0] = NaN
+[SpikingEmbedding] emb[first_5] = 1,-1,1,1,-1
+[SpikingEmbedding] dotData[first_5] = 0,0,0,0,0
+[WARNING] output pooler berisikan SEMUA NOL! (Dead Network)
+[trainStepDistill] tokenizedBatch =  [
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, 0,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, 0,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined,
+  undefined, undefined, undefined, undefined, undefined
+]
+[SpikingEmbedding] input[0] = NaN
+[SpikingEmbedding] emb[first_5] = 1,-1,1,1,-1
+[SpikingEmbedding] dotData[first_5] = 0,0,0,0,0
+[WARNING] output pooler berisikan SEMUA NOL! (Dead Network)
+Total waktu untuk 100 iterasi: 220.25 ms
+Rata-rata: 2.20 ms/iterasi
+
+Untuk menguji TS Murni, jalankan:
+ML_DISABLE_NATIVE=1 npx tsx test_runner.ts

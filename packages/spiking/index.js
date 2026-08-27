@@ -310,7 +310,7 @@ if (!nativeBinding) {
   throw new Error(`Failed to load native binding`)
 }
 
-const { dotProductAddOnlyNative, lifStepNative, maskSurrogateNative, applyAddOnlyDeltaNative, applyEmbeddingDeltaNative, contrastiveHebbianNative } = nativeBinding
+const { dotProductAddOnlyNative, lifStepNative, maskSurrogateNative, applyAddOnlyDeltaNative, applyEmbeddingDeltaNative, contrastiveHebbianNative, poolerDistillationNative } = nativeBinding
 
 module.exports.dotProductAddOnlyNative = dotProductAddOnlyNative
 module.exports.lifStepNative = lifStepNative
@@ -318,3 +318,4 @@ module.exports.maskSurrogateNative = maskSurrogateNative
 module.exports.applyAddOnlyDeltaNative = applyAddOnlyDeltaNative
 module.exports.applyEmbeddingDeltaNative = applyEmbeddingDeltaNative
 module.exports.contrastiveHebbianNative = contrastiveHebbianNative
+module.exports.poolerDistillationNative = poolerDistillationNative

@@ -1,5 +1,11 @@
 # @oxide-js/models
 
+## 1.1.1
+
+### Patch Changes
+
+- Fix NaN gradients and Dead Network pooler in TS fallback
+
 ## 1.1.0
 
 ### Minor Changes

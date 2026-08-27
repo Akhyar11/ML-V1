@@ -1,5 +1,11 @@
 # @oxide-js/spiking
 
+## 1.3.1
+
+### Patch Changes
+
+- Fix NaN gradients and Dead Network pooler in TS fallback
+
 ## 1.3.0
 
 ### Minor Changes

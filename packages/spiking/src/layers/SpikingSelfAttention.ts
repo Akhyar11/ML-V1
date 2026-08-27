@@ -64,7 +64,7 @@ export class SpikingSelfAttention extends BaseLayer {
     this.addParameter("kernelV", this.createInitializer(this.kernelInitializer, [inFeatures, this.d_model]), true, [inFeatures, this.d_model]);
 
     // OPTIMIZATION: Scale up initial weights so neurons actually spike (prevent Layer 2 death)
-    const scale = Math.sqrt(inFeatures);
+    const scale = 100.0;
     const kQ = this.kernelQ!._data;
     const kK = this.kernelK!._data;
     const kV = this.kernelV!._data;
@@ -141,6 +141,7 @@ export class SpikingSelfAttention extends BaseLayer {
     const seqLen = this.sequenceLength;
     const batch = batchSeq / seqLen;
     const d_model = this.d_model;
+    const actualLengths = options?.maskLengths as number[] | undefined;
 
     if (!Number.isInteger(batch)) {
         throw new Error(`[SpikingSelfAttention] Jumlah baris input (${batchSeq}) harus merupakan kelipatan dari sequenceLength (${seqLen}).`);
@@ -182,6 +183,8 @@ export class SpikingSelfAttention extends BaseLayer {
     
     for (let b = 0; b < batch; b++) {
         for (let i = 0; i < seqLen; i++) {
+            if (actualLengths && i >= actualLengths![b]) continue;
+            
             const qBase = b * seqLen * d_model + i * d_model;
             // Pre-collect non-zero indices for Q to exploit sparsity
             const nonZeroQ: number[] = [];
@@ -195,6 +198,7 @@ export class SpikingSelfAttention extends BaseLayer {
             tempMatches.fill(0);
             
             for (let j = 0; j < seqLen; j++) {
+                if (actualLengths && j >= actualLengths![b]) continue;
                 let matchCount = 0;
                 const kBase = b * seqLen * d_model + j * d_model;
                 for (let k = 0; k < nonZeroQ.length; k++) {
@@ -234,6 +238,7 @@ export class SpikingSelfAttention extends BaseLayer {
 
     for (let b = 0; b < batch; b++) {
         for (let j = 0; j < seqLen; j++) {
+            if (actualLengths && j >= actualLengths![b]) continue;
             const vBase = b * seqLen * d_model + j * d_model;
             // Pre-collect non-zero indices for V to exploit sparsity
             const nonZeroV: number[] = [];
@@ -243,7 +248,8 @@ export class SpikingSelfAttention extends BaseLayer {
             if (nonZeroV.length === 0) continue;
 
             for (let i = 0; i < seqLen; i++) {
-                const gradedScore = matchScores[b * seqLen * seqLen + i * seqLen + j];
+                if (actualLengths && i >= actualLengths![b]) continue;
+                const gradedScore = sScoresData[b * seqLen * seqLen + i * seqLen + j];
                 if (gradedScore > 0) {
                     const outBase = b * seqLen * d_model + i * d_model;
                     for (let k = 0; k < nonZeroV.length; k++) {
@@ -282,7 +288,7 @@ export class SpikingSelfAttention extends BaseLayer {
       }
   }
 
-  public learnAttention(errorSignal: Matrix, learningRate: number = 0.01) {
+  public learnAttention(errorSignal: Matrix, learningRate: number = 0.01, options?: ForwardOptions) {
       if (!this.lastInputs) {
           throw new Error("[SpikingSelfAttention] Cannot run learning before forward() is executed.");
       }
@@ -293,6 +299,9 @@ export class SpikingSelfAttention extends BaseLayer {
       // Karena inputs masuk setelah layer 1, shape-nya [batchSeq, d_model]
       const inFeatures = this.lastInputs._shape[1] || this.d_model; 
       const d_model = this.d_model;
+      const seqLen = this.sequenceLength;
+      const batch = batchSeq / seqLen;
+      const actualLengths = options?.maskLengths as number[] | undefined;
 
       // Update Local Learning: Karena fungsi non-differentiable rumit, 
       // kita mendistribusikan sinyal error secara merata ke kernel Q, K, dan V (Hebbian/Surrogate style)
@@ -300,16 +309,20 @@ export class SpikingSelfAttention extends BaseLayer {
       const kK = this.kernelK!._data;
       const kV = this.kernelV!._data;
 
-      for (let b = 0; b < batchSeq; b++) {
-          const errOffset = b * d_model;
-          const inOffset = b * inFeatures;
-          for (let i = 0; i < inFeatures; i++) {
+      for (let b = 0; b < batch; b++) {
+          for (let t = 0; t < seqLen; t++) {
+              if (actualLengths && t >= actualLengths![b]) continue;
+              
+              const b_seq = b * seqLen + t;
+              const errOffset = b_seq * d_model;
+              const inOffset = b_seq * inFeatures;
+              for (let i = 0; i < inFeatures; i++) {
               const inVal = inputs[inOffset + i];
               if (inVal > 0) { // Sparse update
                   const kOffset = i * d_model;
                   for (let d = 0; d < d_model; d++) {
-                      // Dopamine drive sangat kecil untuk membangkitkan neuron mati tanpa over-saturate
-                      const dopamine = 0.00005; 
+                      // Dopamine di-set 0 karena inisialisasi awal sudah di-scale up, tidak perlu revive paksa
+                      const dopamine = 0.0; 
                       
                       let deltaQ = (learningRate * err[errOffset + d] * inVal) + dopamine;
                       let deltaK = (learningRate * err[errOffset + d] * inVal) + dopamine;
@@ -322,6 +335,7 @@ export class SpikingSelfAttention extends BaseLayer {
               }
           }
       }
+  }
   }
 
   public getConfig(): Record<string, any> {

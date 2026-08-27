@@ -1,5 +1,6 @@
 export { BaseModel } from "./BaseModel.js";
 export { Sequential } from "./Sequential.js";
+export { SpikingSequential } from "./SpikingSequential.js";
 
 // Types
 export * from "./types.js";

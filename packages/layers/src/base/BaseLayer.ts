@@ -8,6 +8,7 @@ export interface LayerConfig {
 export interface ForwardOptions {
   training?: boolean;
   mask?: Matrix;
+  maskLengths?: number[];
   initialState?: Matrix[];
   [key: string]: unknown;
 }

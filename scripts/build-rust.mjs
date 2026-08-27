@@ -20,6 +20,13 @@ const workspaces = [
     rustDir: "packages/layers/src-rust",
     rustLibrary: "liblayers_native.so",
     nodeFile: "layers-native.android-arm64.node"
+  },
+  {
+    name: "@oxide-js/spiking",
+    workspace: "packages/spiking",
+    rustDir: "packages/spiking/src-rust",
+    rustLibrary: "libspiking_native.so",
+    nodeFile: "spiking-native.android-arm64.node"
   }
 ];
 

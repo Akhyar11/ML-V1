@@ -124,3 +124,22 @@ export const contrastiveHebbianNativeWrapper = (
     dModel
   );
 };
+
+export const poolerDistillationNativeWrapper = (
+  normalizedOut: Float32Array,
+  errData: Float32Array,
+  numPairs: number,
+  dModel: number,
+  margin: number,
+  targetScores: Float32Array
+): number => {
+  if (!native) throw new Error("Spiking Native backend not available");
+  return native.poolerDistillationNative(
+    normalizedOut,
+    errData,
+    numPairs,
+    dModel,
+    margin,
+    targetScores
+  );
+};

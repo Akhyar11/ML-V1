@@ -83,3 +83,50 @@ pub fn contrastive_hebbian_native(
 
     total_loss as f64
 }
+
+#[napi]
+pub fn pooler_distillation_native(
+    normalized_out: Float32Array,
+    mut err_data: Float32Array,
+    num_pairs: u32,
+    d_model: u32,
+    margin: f64,
+    target_scores: Float32Array,
+) -> f64 {
+    let normalized_slice: &[f32] = &normalized_out;
+    let err_slice: &mut [f32] = &mut err_data;
+    let target_slice: &[f32] = &target_scores;
+    
+    let num_pairs = num_pairs as usize;
+    let d_model = d_model as usize;
+    let margin = margin as f32;
+    
+    let mut total_loss: f32 = 0.0;
+    for i in 0..num_pairs {
+        let a_offset = (2 * i) * d_model;
+        let b_offset = (2 * i + 1) * d_model;
+        let target = target_slice[i];
+
+        // Compute cosine similarity (already normalized, so it's just dot product)
+        let mut sim = 0.0;
+        for d in 0..d_model {
+            sim += normalized_slice[a_offset + d] * normalized_slice[b_offset + d];
+        }
+
+        let diff = sim - target; 
+        
+        if diff.abs() > margin {
+            total_loss += 0.5 * diff * diff;
+
+            for d in 0..d_model {
+                let a_val = normalized_slice[a_offset + d];
+                let b_val = normalized_slice[b_offset + d];
+                
+                err_slice[a_offset + d] += diff * b_val;
+                err_slice[b_offset + d] += diff * a_val;
+            }
+        }
+    }
+    
+    total_loss as f64
+}
